@@ -50,6 +50,13 @@ def md_to_pdf(input_path, output_path):
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font('Arial', '', 12)
+<<<<<<< HEAD
+=======
+
+    
+
+    #--------------------------------------------------
+>>>>>>> 60b61a3 (segundocommit)
     # Simple render: remove HTML tags for plain text
     import re
     text = re.sub('<[^<]+?>', '', html)
