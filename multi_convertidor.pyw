@@ -12,6 +12,21 @@ from fpdf import FPDF
 import pdfplumber
 import markdown
 
+# --- Requisitos ---
+# pip install python-docx fpdf pdfplumber markdown
+# Requisitos:
+# - Python 3.6 o superior
+# - Módulos: python-docx, fpdf, pdfplumber, markdown
+# - Tkinter (incluido en la mayoría de las instalaciones de Python)
+# Este script permite convertir entre varios formatos de archivo de texto y documentos:
+# - TXT a DOCX
+# - TXT a PDF
+# - TXT a MD (Markdown)
+# - PDF a TXT
+# - MD a PDF
+# - DOCX a TXT
+
+
 # --- Funciones de conversión ---
 def txt_to_docx(input_path, output_path):
     with open(input_path, 'r', encoding='utf-8') as f:
