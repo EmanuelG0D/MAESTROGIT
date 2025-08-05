@@ -1,3 +1,8 @@
+#EMANUEL HERNANDO HIGUERA VANEGAS
+#05/08/2025
+#WPOSS
+
+
 # --- Multi-Convertidor Universal de Archivos ---
 import os
 import tkinter as tk
